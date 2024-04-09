@@ -103,4 +103,4 @@ float fbm(vec3 x) {
 		}`,
 }
 
-export { NoiseShader }
+export { NoiseShader };

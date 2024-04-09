@@ -6,13 +6,6 @@
     <title>FRANTOIO</title>
     <link rel="icon" type="image/svg+xml" href="assets/Square-fig.svg" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap"
-      rel="stylesheet"
-    />
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Copperplate+Gothic&display=swap"> -->
   </head>
   <body>
     <div class="loader">
@@ -73,13 +66,15 @@
           </div>
         </div>
       </div>
+
+      <img src="assets/scroll.svg" alt="scroll" class="scroll-down">
     </section>
 
     <section class="planting">
-      <h3>PLANTING</h3>
+      <h3 id="planting-h3">PLANTING</h3>
       <div class="planting-container">
-        <div class="planting-text">
-          <p>
+        <div  class="planting-text">
+          <p id="planting-text">
             A single olive seed is gently placed into<br />
             fertile soil. This marks the beginning of a<br />
             journey, where care and nature cultivate<br />
@@ -88,16 +83,17 @@
         </div>
 
         <div class="planting-model">
+          
           <!-- <img src="assets/plantig.svg" alt="" /> -->
         </div>
       </div>
     </section>
 
     <section class="growing">
-      <h3>GROWING</h3>
+      <h3 id="growing-h3">GROWING</h3>
       <div class="growing-container">
         <div class="growing-text">
-          <p>
+          <p id="growing-text">
             As seasons change, the trees flourish, <br />
             their branches laden with the promise<br />
             of future harvests.
@@ -105,16 +101,16 @@
         </div>
 
         <div class="growing-model">
-          <img src="assets/growing.svg" alt="" />
+          <!-- <img src="assets/growing.svg" alt="" /> -->
         </div>
       </div>
     </section>
 
-    <section class="Harvesting">
-      <h3>HARVESTING</h3>
-      <div class="Harvesting-container">
-        <div class="Harvesting-text">
-          <p>
+    <section class="harvesting">
+      <h3 id="harvesting-h3">HARVESTING</h3>
+      <div class="harvesting-container">
+        <div class="harvesting-text">
+          <p id="harvesting-text">
             Hands and tradition meet in the olive <br />
             groves as the ripe olives are carefully <br />
             harvested. Each olive is picked with <br />
@@ -123,17 +119,18 @@
           </p>
         </div>
 
-        <div class="Harvesting-model">
-          <img src="assets/harvesting.svg" alt="" />
+        <div class="harvesting-model">
+          <!-- <img src="assets/growing.svg" alt="" /> -->
         </div>
       </div>
     </section>
 
+
     <section class="crushing">
-      <h3>CRUSHING</h3>
+      <h3 id="crushing-h3">CRUSHING</h3>
       <div class="crushing-container">
         <div class="crushing-text">
-          <p>
+          <p id="crushing-text">
             Between the harvest and the press <br />, comes the crushing. Here,
             the olives are<br />
             gently crushed, a process where the <br />
@@ -145,43 +142,53 @@
         </div>
 
         <div class="crushing-model">
-          <img src="assets/crushing.svg" alt="" />
+          <!-- <img src="assets/crushing.svg" alt="" /> -->
         </div>
       </div>
     </section>
 
     <section class="cold-pressing">
-      <h3>COLD PRESSING</h3>
+      <h3 id="pressing-h3"><span>COLD </span><span>PRESSING</span></h3>
       <div class="cold-pressing-container">
         <div class="cold-pressing-text">
-          <p>
+          <!-- <p id="pressing-text">
             Within our state-of-the-art press<br />, the harvested olives are<br />
             transformed. Through cold pressing, the <br />
             olives release their rich, golden oil —a <br />
             pure expression of nature, bottled without losing a drop of its
             essence.
-          </p>
+          </p> -->
         </div>
 
         <div class="cold-pressing-model">
-          <img src="assets/coldpressing.svg" alt="" />
+          <!-- <img src="assets/coldpressing.svg" alt="" /> -->
         </div>
       </div>
     </section>
 
     <section class="bottling">
-      <h3>BOTTLING</h3>
+      <h3 id="bottling-h3">BOTTLING</h3>
       <div class="bottling-container">
         <div class="bottling-text">
-          <p>
+          <p id="bottling-text">
             In the final frame, the golden oil finds<br />its home in elegant
             bottles. Each bottle<br />
             is a testament to quality, a bridge from <br />
-            our groves to your table, sealing the essence of our organic,
+            our groves to your table, sealing the essence <br /> of our organic,
             cold-pressed extra virgin olive oil.
           </p>
         </div>
 
+        <div class="bottling-model">
+          <!-- <img src="assets/bottling.svg" alt="" /> -->
+        </div>
+      </div>
+    </section>
+
+
+    <section class="product-frame">
+      <h3 id="bottling-h3"><span>PRODUCT</span> <span>FRAME</span></h3>
+      
         <div class="bottling-model">
           <img src="assets/bottling.svg" alt="" />
         </div>
@@ -189,8 +196,13 @@
     </section>
 
     <footer class="footer">
+
+      <div class="copyright-mobile">
+        <p>Copyright © 2024 Oliolibico, All rights reserved</p>
+      </div>
+
       <div class="contact-us">
-        <h3>Contact us</h3>
+        <h3 id="contact-h3">Contact Form</h3>
         <input type="text" placeholder="Name" />
         <input type="email" placeholder="Email" />
         <textarea rows="" cols="" placeholder="Your message"></textarea>
@@ -199,8 +211,8 @@
 
       <div class="about-us">
         <div class="about">
-          <h3>About us</h3>
-          <p>
+          <h3 id="about-h3">About us</h3>
+          <p id="about-text">
             Oliolibico is a leading supplier and manufacturer of olive oil. Our
             product consist of a huge selection of valuable cold pressed olive
             oil.
@@ -208,19 +220,43 @@
         </div>
 
         <div class="contact">
-          <h3>Contact us</h3>
+          <h3 id="contact-h3-2">Contact us</h3>
+          <div>
           <p>info@oliolibico.com</p>
           <p>+218 94 200 05 17</p>
+        </div>
         </div>
 
         <div class="copyright">
           <p>Copyright © 2024 Oliolibico, All rights reserved</p>
         </div>
       </div>
+     
+
+      
+     <div id="starsCanvas"></div>
     </footer>
+
   </body>
-  <script type="module" src="/index.js"></script>
+  <script src="app.js"></script>
+  <script type="module"
+  src="animations/navAnimation/nav.js"></script>
+  <script type="module" src="/seed.js"></script>
+  <script type="module" src="/tree.js"></script>
+  <script type="module" src="/basket.js"></script>
+  <script type="module" src="/press.js"></script>
+   <script type="module" src="/stars.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script> -->
-  <script src="app.js"></script>
 </html>
+
+
+
+  <!-- we have to set where it will be the canvas is where every three.js is so it controls all at once -->
+  <!-- <script type="module" src="/stars.js"></script> -->
+
+     <!-- <canvas id="starsCanvas"></canvas> -->
+     <!-- <div id="starsCanvas"></div> -->
+
+
+     
