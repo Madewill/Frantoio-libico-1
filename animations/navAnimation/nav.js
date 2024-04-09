@@ -6,10 +6,9 @@ const loaderProgress = loaderTag.querySelector("span");
 
 // Function to update loader progress
 const updateLoaderProgress = () => {
-    const loadedPercentage = Math.round((video.buffered.end(0) / video.duration) * 100);
-    loaderProgress.textContent = `${loadedPercentage}%`;
-  };
-  
+  const loadedPercentage = (video.buffered.end(0) / video.duration) * 100;
+  loaderProgress.textContent = `${loadedPercentage.toFixed(2)}%`;
+};
 
 // Event listener for video progress
 video.addEventListener("progress", updateLoaderProgress);
